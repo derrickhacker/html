@@ -1,4 +1,7 @@
 body {
+  background: url(de.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -26,7 +29,7 @@ body {
   
   /* Heading styles */
   h1, h2, h3, h4 {
-    color: #2a447e;
+    color: hsl(59, 92%, 59%);
     text-align: center;
   }
   
@@ -34,7 +37,7 @@ body {
   p {
     margin: 15px;
     font-family: Georgia, Garamond, serif;
-    color: #2b2563;
+    color: hwb(0 100% 0%)
   }
   
   /* Image styling */
